@@ -1,8 +1,8 @@
 import { createRef } from "react";
 
 const state = {
-  sections: 9,
-  pages: 8,
+  sections: 5,
+  pages: 4,
   zoom: 75,
   paragraphs: [
     {
@@ -15,8 +15,8 @@ const state = {
     },
   ],
   stripes: [
-    { offset: 0, color: "red", height: 20 },
-    { offset: 2, color: "blue", height: 20 },
+    { offset: 0, color: "#696969", height: 20 },
+    { offset: 2, color: "#696969", height: 20 },
   ],
 
   top: createRef(),

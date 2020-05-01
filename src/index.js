@@ -53,8 +53,19 @@ function Content() {
             text={"Nils\nNathorst\nWindahl"}
           />
         </Block>
+        <Block factor={1.1}>
+          <MultilineText
+            top
+            left
+            size={w * 0.15}
+            lineHeight={w / 4.6}
+            position={[-w / 2 + 0.2, 2.1, -2]}
+            color="black"
+            text={"Nils\nNathorst\nWindahl"}
+          />
+        </Block>
       </Block>
-      <Block factor={1.2} offset={2}>
+      <Block factor={1} offset={2}>
         <MultilineText
           top
           left
@@ -62,7 +73,7 @@ function Content() {
           lineHeight={w / 4.6}
           position={[-w / 2, 2, -1]}
           color="#fff"
-          text={"Nils\nNathorst\nWindahl"}
+          text={"Web\nDeveloper"}
         />
       </Block>
       {state.stripes.map(({ offset, color, height }, index) => (
@@ -75,7 +86,7 @@ function Content() {
           />
         </Block>
       ))}
-      <Block factor={1.25} offset={8}>
+      <Block factor={1.25} offset={4}>
         <Dom
           className="bottom-left"
           position={[-canvasWidth / 2, -canvasHeight / 2, 0]}
